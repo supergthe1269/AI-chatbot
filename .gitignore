@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and dependencies
+venv/
+env/
+.env
+
+# Model weights and checkpoints (keep repo under 100MB)
+*.pth
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+
+# Colab / Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
